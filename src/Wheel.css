@@ -1,0 +1,229 @@
+li:first-child .text {
+  background-color:#F797EC;
+}
+li:nth-child(2) .text {
+  background-color: #F797EC;
+}
+li:nth-child(3) .text {
+  background-color: #F797EC;
+}
+li:nth-child(4) .text {
+  background-color: #F797EC;
+}
+li:nth-child(5) .text {
+  background-color: #F797EC;
+}
+li:nth-child(6) .text {
+  background-color: #F797EC;
+  
+}
+li:first-child {
+  transform: rotate(0deg) skewY(-60deg);
+  border: 1px solid black;
+}
+li:nth-child(2) {
+  transform: rotate(60deg) skewY(-60deg);
+  border: 1px solid black;
+}
+li:nth-child(3) {
+  transform: rotate(120deg) skewY(-60deg);
+  border: 1px solid black;
+}
+li:nth-child(4) {
+  transform: rotate(180deg) skewY(-60deg);
+  border: 1px solid black;
+}
+li:nth-child(5) {
+  transform: rotate(240deg) skewY(-60deg);
+  border: 1px solid black;
+  
+}
+li:nth-child(6) {
+  transform: rotate(300deg) skewY(-60deg);
+  border: 1px solid black;
+}
+.circle{
+  width: 80vw;
+  height: 80vw;
+  border: 1px solid black;
+  position: relative;
+  padding: 0;
+  margin: 1em auto;
+  border-radius: 50%;
+  list-style: none;
+  overflow: hidden;
+  background-color: #f7ced7ff;
+}
+.iconify {
+  font-size: 8vw;
+  color:white;
+}
+li {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  transform-origin: 0% 100%
+}
+li:first-child .text {
+  position: absolute;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  text-align: center;
+  display: block;
+  transform: skewY(60deg) rotate(15deg);
+  padding-top: 3vw;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 3vw;
+  color: black;
+  font-family: DINOT-Light Regular;
+}
+li:nth-child(4) .text {
+  position: absolute;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  text-align: center;
+  display: block;
+  transform: skewY(60deg) rotate(15deg);
+  padding-top: 3vw;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 3vw;
+  color: black;
+  font-family: DINOT-Light Regular;
+}
+.text {
+  position: absolute;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  text-align: center;
+  display: block;
+  transform: skewY(60deg) rotate(15deg);
+  padding-top: 3vw;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 2.2vw;
+  color: black;
+  font-family: DINOT-Light Regular;
+}
+.arrow{
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 50px solid black;
+  position: absolute;
+  left: 46vw;
+  top: -20px;
+  z-index: 1;
+}
+.spin-button{
+  position:absolute;
+  width: 40vw;
+  height: 10vw;
+  background-color: #f7ced7ff;
+  left: 30vw;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  font-size: 18px;
+  font-family: DINOT-Light Regular;
+
+}
+.start-rotate {
+  animation: start-rotate 1s linear infinite;
+}
+@keyframes start-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.slower1-rotate {
+  animation: slower1-rotate 2s linear infinite;
+}
+@keyframes slower1-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.slower2-rotate {
+  animation: slower2-rotate 3s linear infinite;
+}
+@keyframes slower2-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.slower3-rotate {
+  animation: slower3-rotate 7s linear infinite;
+}
+@keyframes slower3-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.stop-rotate {
+  animation-play-state: paused;
+}
+.winner-text {
+  padding: 4vw;
+  text-align: center;
+  display: block;
+  font-size: 4vw;
+  color: black;
+  font-family: DINOT-Light Regular;
+}
+
+
+   /* condition for screen size minimum of 500px */
+   @media (min-width:839px) {
+
+    /* your conditional / responsive CSS inside this condition */
+
+    .circle{
+      width: 40vw;
+      height: 40vw;
+
+    }
+    .iconify {
+      font-size: 4vw;
+    }
+    li:first-child .text {
+      padding-top: 1.3vw;
+      font-size: 1.3vw;
+    }
+    li:nth-child(4) .text {
+      padding-top: 1.3vw;
+      font-size: 1.3vw;
+    }
+    .text {
+      padding-top: 1.3vw;
+      font-size: 1.3vw;
+    }
+
+    .arrow{
+ 
+      left: 49.18vw;
+    }
+
+    .spin-button{
+      width: 25vw;
+      height: 8vh;
+      left: 37vw;
+      font-Size: 4vh;
+    
+    }
+    .winner-text {
+      font-size: 2vw;
+      padding-left: 20vw;
+      padding-right: 20vw;
+    }
+    
+    }
