@@ -4,7 +4,10 @@ import callAPI from './callAPI.js';
 import Confetti from 'react-confetti'
 import './Wheel.css';
 
-let westers_url='https://www.westers.se/artiklar/westers-lyckohjul/'
+let westers_url='https://main.dsqebyydqj5cn.amplifyapp.com/'
+let sf_url='https://www.filmstaden.se/'
+let elite_url='https://elite.se/?gclid=Cj0KCQjw06OTBhC_ARIsAAU1yOXUs-gA3HJevZLtnnPjmnZ15UI51_YSatVpnMqy97T2c3ySAQoXNEgaAklVEALw_wcB'
+let hm_url='https://www2.hm.com/sv_se/index.html'
 
 export default class Winning extends React.Component {
     
@@ -13,7 +16,7 @@ export default class Winning extends React.Component {
         callAPI(this.props.values.business,this.props.values.email,"nowin")
         return (
             <div className="winner-text">
-                Tyvärr! Ingen vinst idag, men gå gärna ändå in och kika på vad vi skulle kunna erbjuda er i form av Catering och Event på: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.westers.se</a>
+                Tyvärr! Ingen vinst idag, men gå gärna ändå in och kika på vad vi skulle kunna erbjuda er i form av digitala lösningar till Mässor och Event: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.fairyboys.se</a>
                 <Confetti
                     width={window.innerWidth}
                     height={window.innerHeight}
@@ -25,7 +28,7 @@ export default class Winning extends React.Component {
         callAPI(this.props.values.business,this.props.values.email,"Kock")
         return (
             <div className="winner-text">
-                Grattis! Wow! Du är nu med i utlottningen till att vinna en personlig kock i hemmet. Vi kommer och serverar och tillagar en tre rätters meny, i ditt hem! Vi hör av oss på mail om du vinner, så länge kan du läsa mer om det och våra andra tjänster för Catering och Event på: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.westers.se</a>
+                Grattis! Wow! Du är nu med i utlottningen till att vinna ett presentkort för 500kr som du kan använda på valfri Filmstaden, du kan hitta närrmsta här: <a style={{ color: "hotpink"}} href={sf_url} target="_blank" title="Opens in a new window">www.filmstaden.se</a>. Vi hör av oss på mail om du vinner, så länge kan du kika på vad vi skulle kunna erbjuda er i form av digitala lösningar till Mässor och Event: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.fairyboys.se</a>
                 <Confetti
                     width={window.innerWidth}
                     height={window.innerHeight}
@@ -38,7 +41,7 @@ export default class Winning extends React.Component {
         callAPI(this.props.values.business,this.props.values.email,"SoL")
         return (
             <div className="winner-text">
-                 Grattis! Wow! Du är nu med i utlottningen till att vinna en trerätters meny för 4 personer på Westers sommarkrog Sjö & Land. Mitt på strandvägens kaj! Vi hör av oss på mail om du vinner, så länge kan du läsa mer om det och våra andra tjänster för Catering och Event på: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.westers.se</a> och på restaurangen: <a style={{ color: "hotpink"}} href='https://sjoochland.se/' target="_blank" title="Opens in a new window">www.sjoochland.se</a>
+                  Grattis! Wow! Du är nu med i utlottningen till att vinna en hotellövernattning inklusive frukost på något av Elites hotell, du kan hitta närrmsta här: <a style={{ color: "hotpink"}} href={elite_url} target="_blank" title="Opens in a new window">www.elite.se</a>. Vi hör av oss på mail om du vinner, så länge kan du kika på vad vi skulle kunna erbjuda er i form av digitala lösningar till Mässor och Event: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.fairyboys.se</a>
                 <Confetti
                     width={window.innerWidth}
                     height={window.innerHeight}
@@ -51,7 +54,7 @@ export default class Winning extends React.Component {
         callAPI(this.props.values.business,this.props.values.email,"Grill")
         return (
             <div className="winner-text">
-                Grattis! Du är nu med i utlottningen till att vinna en grillkasse fylld med råvaror för 10 personer. Såser, marinader och råvaror för en helkväll med dina nära och kära. Vi hör av oss på mail om du vinner, så länge kan du läsa mer om det och våra andra tjänster för Catering och Event på: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.westers.se</a>
+                Grattis! Du är nu med i utlottningen till att vinna ett presentkort på 1000 kr i Hennes & Mauritz onlineshop. Läs mer på: <a style={{ color: "hotpink"}} href={hm_url} target="_blank" title="Opens in a new window">www.hm.com</a>
                 <Confetti
                     width={window.innerWidth}
                     height={window.innerHeight}
