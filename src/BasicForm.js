@@ -40,7 +40,7 @@ export default class BasicForm extends React.Component {
             <Field className='form-field'
             id="email"
             name="email"
-            placeholder="CoolBiz@gmail.com"
+            placeholder="John.Doe@CoolBiz.com"
             />
             <h1/>
             <button className="submit-button" type="submit" onClick={() => { setTimeout(() => {this.props.startInd(true)}, 1000)}}>
