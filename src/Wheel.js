@@ -103,47 +103,48 @@ export default class Wheel extends React.Component {
             <div className="text"
             contenteditable="true"
             spellcheck="false">
-              <span className="iconify" data-icon="mdi:chef-hat" ></span> <br/>Kocken 
+              <span className="iconify" data-icon="emojione-monotone:film-frames" ></span><br/>Biobesök  
             </div>
           </li>
           <li>
             <div className="text"
             contenteditable="true"
             spellcheck="false">
-              <span className="iconify" data-icon="carbon:restaurant-fine" ></span> <br/>Sjö&Land 
+              <span className="iconify" data-icon="bxs:hotel" ></span><br/>Hotellnatt 
             </div>
           </li>
           <li>
             <div className="text"
             contenteditable="true"
             spellcheck="false">
-              <span className="iconify" data-icon="ic:baseline-outdoor-grill" ></span> <br/>Grillbuffé 
+              <span className="iconify" data-icon="ant-design:shopping-outlined" ></span><br/>H&M
             </div>
           </li>
           <li>
             <div className="text"
             contenteditable="true"
             spellcheck="false">
-              <span className="iconify" data-icon="mdi:chef-hat" ></span> <br/>Kocken 
+              <span className="iconify" data-icon="emojione-monotone:film-frames" ></span><br/>Biobesök  
             </div>
           </li>
           <li>
             <div className="text"
             contenteditable="true"
             spellcheck="false">
-              <span className="iconify" data-icon="carbon:restaurant-fine" ></span> <br/>Sjö&Land 
+              <span className="iconify" data-icon="bxs:hotel" ></span><br/>Hotellnatt  
             </div>
           </li>
           <li>
             <div className="text"
             contenteditable="true"
             spellcheck="false">
-              <span className="iconify" data-icon="ic:baseline-outdoor-grill"></span> <br/>Grillbuffé 
+              <span className="iconify" data-icon="ant-design:shopping-outlined" ></span><br/>H&M
             </div>
           </li>
           </ul>
           <Winning win = {String(Math.floor(360*(this.state.length/7000)/30))} values = {this.props.submitValues}/>
         </div>
+
       );
       }
   }

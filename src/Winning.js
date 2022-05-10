@@ -28,7 +28,7 @@ export default class Winning extends React.Component {
         callAPI(this.props.values.business,this.props.values.email,"Kock")
         return (
             <div className="winner-text">
-                Grattis! Wow! Du är nu med i utlottningen till att vinna ett presentkort för 500kr som du kan använda på valfri Filmstaden, du kan hitta närrmsta här: <a style={{ color: "hotpink"}} href={sf_url} target="_blank" title="Opens in a new window">www.filmstaden.se</a>. Vi hör av oss på mail om du vinner, så länge kan du kika på vad vi skulle kunna erbjuda er i form av digitala lösningar till Mässor och Event: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.fairyboys.se</a>
+                Grattis! Wow! Du är nu med i utlottningen till att vinna ett presentkort för 500kr som du kan använda på valfri Filmstaden, du kan hitta närmsta här: <a style={{ color: "hotpink"}} href={sf_url} target="_blank" title="Opens in a new window">www.filmstaden.se</a>. Vi hör av oss på mail om du vinner. Så länge kan du kika på vad vi skulle kunna erbjuda er i form av digitala lösningar till Mässor och Event: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.fairyboys.se</a>
                 <Confetti
                     width={window.innerWidth}
                     height={window.innerHeight}
@@ -41,7 +41,7 @@ export default class Winning extends React.Component {
         callAPI(this.props.values.business,this.props.values.email,"SoL")
         return (
             <div className="winner-text">
-                  Grattis! Wow! Du är nu med i utlottningen till att vinna en hotellövernattning inklusive frukost på något av Elites hotell, du kan hitta närrmsta här: <a style={{ color: "hotpink"}} href={elite_url} target="_blank" title="Opens in a new window">www.elite.se</a>. Vi hör av oss på mail om du vinner, så länge kan du kika på vad vi skulle kunna erbjuda er i form av digitala lösningar till Mässor och Event: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.fairyboys.se</a>
+                  Grattis! Wow! Du är nu med i utlottningen till att vinna en hotellövernattning inklusive frukost på något av Elites hotell, du kan hitta närmsta här: <a style={{ color: "hotpink"}} href={elite_url} target="_blank" title="Opens in a new window">www.elite.se</a>. Vi hör av oss på mail om du vinner. Så länge kan du kika på vad vi skulle kunna erbjuda er i form av digitala lösningar till Mässor och Event: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.fairyboys.se</a>
                 <Confetti
                     width={window.innerWidth}
                     height={window.innerHeight}
@@ -54,7 +54,7 @@ export default class Winning extends React.Component {
         callAPI(this.props.values.business,this.props.values.email,"Grill")
         return (
             <div className="winner-text">
-                Grattis! Du är nu med i utlottningen till att vinna ett presentkort på 1000 kr i Hennes & Mauritz onlineshop. Läs mer på: <a style={{ color: "hotpink"}} href={hm_url} target="_blank" title="Opens in a new window">www.hm.com</a>
+                Grattis! Du är nu med i utlottningen till att vinna ett presentkort på 1000 kr i Hennes & Mauritz onlineshop. Läs mer på: <a style={{ color: "hotpink"}} href={hm_url} target="_blank" title="Opens in a new window">www.hm.com</a>. Vi hör av oss på mail om du vinner. Så länge kan du kika på vad vi skulle kunna erbjuda er i form av digitala lösningar till Mässor och Event: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.fairyboys.se</a>
                 <Confetti
                     width={window.innerWidth}
                     height={window.innerHeight}
